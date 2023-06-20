@@ -1,4 +1,4 @@
-package utils;
+package com.empolyee.utils;
 
 import java.util.Properties;
 
@@ -8,7 +8,7 @@ public enum ApplicationProperties {
     ApplicationProperties(){
         properties =new Properties();
         try{
-      properties.load(getClass().getClassLoader().getResourceAsStream("application.properties")).;
+      properties.load(getClass().getClassLoader().getResourceAsStream("application.properties"));
     }
         catch(Exception e){
             e.printStackTrace();

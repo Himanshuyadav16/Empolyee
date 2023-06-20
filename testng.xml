@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/apple/Desktop/code/second2project/javaCoreProject/Empolyee">
+        <classes>
+            <class name="com.empolyee.testCases.DeleteEmpolyee"/>
+            <class name="com.empolyee.testCases.GetAllEmpolyee"/>
+            <class name="com.empolyee.testCases.GetSingleEmpolyee"/>
+            <class name="com.empolyee.testCases.PostEmpolyee"/>
+            <class name="com.empolyee.testCases.PutEmpolyee"/>
+        </classes>
+    </test>
+</suite>
