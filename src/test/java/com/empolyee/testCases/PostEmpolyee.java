@@ -19,7 +19,7 @@ public class PostEmpolyee extends BaseClass {
         Faker faker = new Faker();
         String name = faker.name().name();
         String salary = "10000";
-        String age = "24";
+        String age = "25";
 
         DataPostBody dataPostBody = new DataPostBody();
         dataPostBody.setName(name);
